@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+  width: 357px;
+  height: 610px;
+  border-radius: 15px;
+  margin: 4rem auto;
+}
+.card > img {
+  max-width: 92%;
+  margin: 1rem;
+  border-radius: 20px;
+  height: 290px;
+  width: 325px;
+}
+.image-name {
+  color: white;
+  font-weight: 600;
+  font-size: x-large;
+  margin: 2rem;
+}
+.image-details {
+  color: white;
+  margin: 2rem;
+  color: rgb(139, 172, 218);
+}
+.details {
+  color: hsl(178, 100%, 50%);
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  border-bottom: 3px solid rgb(139, 172, 218);
+}
+.days {
+  color: hsl(215, 51%, 70%);
+  margin-right: 1rem;
+}
+hr {
+  max-width: 92%;
+  margin: 1rem;
+  border-color: hsl(215, 51%, 70%);
+  background-color: hsl(215, 51%, 70%);
+}
+.profile-picture-container {
+  display: flex;
+}
+.avatar {
+  max-width: 14%;
+  margin-bottom: 1rem;
+  margin-left: 0.5rem;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.name {
+  color: white;
+  margin: 1rem 1rem 2rem 1.5em;
+}
+.text-color {
+  color: hsl(215, 51%, 70%);
+}
